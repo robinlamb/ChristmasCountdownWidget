@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:layout_margin="@dimen/dimWidgetMargin"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/christmas_tree"
+        android:id="@+id/christmas_tree_image"/>
+
+
+    <TextView
+        android:id="@+id/tvNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="casual"
+        android:textSize="@dimen/dimTextSizeNumber"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/dimSpacing"/>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:layout_marginLeft="@dimen/dimSpacing"
+
+       >
+
+
+       <TextView
+           android:id="@+id/tvDaysUntil"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="casual"
+
+           android:text="Days Until"
+           android:textSize="@dimen/dimTextSizeDaysUntil"
+           android:layout_gravity="center"
+           android:layout_below="@id/tvNumber"/>
+
+       <TextView
+           android:id="@+id/tvChristmas"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:fontFamily="casual"
+           android:text="Christmas"
+           android:textSize="@dimen/dimTextSizeChristmas"
+           android:layout_below="@id/tvDaysUntil"
+           android:layout_gravity="center"/>
+
+   </LinearLayout>
+
+</LinearLayout>

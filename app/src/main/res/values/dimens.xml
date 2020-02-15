@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimTextSizeNumber">40dp</dimen>
+    <dimen name="dimTextSizeDaysUntil">10dp</dimen>
+    <dimen name="dimTextSizeChristmas">12dp</dimen>
+    <dimen name="dimWidgetMargin">12dp</dimen>
+    <dimen name="dimWidgetMinHeight">60dp</dimen>
+    <dimen name="dimWidgetMinWidth">282dp</dimen>
+    <dimen name="dimSpacing">12dp</dimen>
+</resources>

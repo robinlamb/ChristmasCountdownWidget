@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimSpacing">20dp</dimen>
+    <dimen name="dimTextSizeDaysUntil">20dp</dimen>
+    <dimen name="dimTextSizeChristmas">25dp</dimen>
+</resources>
