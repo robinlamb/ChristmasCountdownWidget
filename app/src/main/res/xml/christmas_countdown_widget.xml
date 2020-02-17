@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- XML Settings for the widget-->
+
 <appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
     android:minWidth="@dimen/dimWidgetMinWidth"
     android:minHeight="@dimen/dimWidgetMinHeight"
