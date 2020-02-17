@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Modifiy dimensions for screens with a minimum width of 360 dp -->
+
 <resources>
     <dimen name="dimTextSizeDaysUntil">18dp</dimen>
     <dimen name="dimTextSizeChristmas">20dp</dimen>
