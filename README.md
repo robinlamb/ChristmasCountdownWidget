@@ -1,4 +1,4 @@
-# ChristmasCountdownWidget
+# Christmas Countdown Widget
 
 This is an Android widget that will take the date from a device and determine if the date is within the Christmas season (from Christmas day until Epiphany. If the current day is within the Christmas season, it will display the text "Merry Christmas!"  If the current day is outside of the Christmas season, it will display the number of days until Christmas begins.
 
