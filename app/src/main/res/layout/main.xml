@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the widget content-->
+
+<!-- Linear layout to organize horizontal content -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,13 +11,14 @@
     android:orientation="horizontal"
     android:gravity="center">
 
+    <!-- Image view that will hold Christmas tree image-->
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/christmas_tree"
         android:id="@+id/christmas_tree_image"/>
 
-
+    <!-- Text view to hold number of days until Christmas -->
     <TextView
         android:id="@+id/tvNumber"
         android:layout_width="wrap_content"
@@ -23,7 +28,8 @@
         android:textSize="@dimen/dimTextSizeNumber"
         android:layout_gravity="center"
         android:layout_marginLeft="@dimen/dimSpacing"/>
-
+    
+   <!-- A second linear layout to organize vertical content-->
    <LinearLayout
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
@@ -32,7 +38,7 @@
 
        >
 
-
+       <!-- Text views to hold and line up rest of text-->
        <TextView
            android:id="@+id/tvDaysUntil"
            android:layout_width="wrap_content"
